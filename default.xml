@@ -3,7 +3,7 @@
 
   <remote fetch="https://source.codeaurora.org/quic/la/" name="caf" review="codeaurora.org"/>
   
-  <default revision="refs/tags/LA.QSSI.11.0.r1-08600-qssi.0"
+  <default revision="refs/tags/LA.QSSI.11.0.r1-09900-qssi.0"
            remote="caf"
            sync-j="4"
            sync-c="true" />
@@ -17,7 +17,7 @@
   <remote name="hals"
           fetch="https://source.codeaurora.org/quic/la"
           review="codeaurora.org"
-          revision="refs/tags/LA.UM.9.12.r1-09300-SMxx50.0"/>		   
+          revision="refs/tags/LA.UM.9.14.r1-13300-LAHAINA.0"/>		   
 		   
   <remote  name="cafex"
            fetch="https://github.com/CAF-Extended"
@@ -96,7 +96,6 @@
   <project name="platform/external/FP16" path="external/FP16"/>
   <project name="platform/external/FXdiv" path="external/FXdiv"/>
   <project name="platform/external/ImageMagick" path="external/ImageMagick"/>
-  <project name="platform/external/OpenCL-CTS" path="external/OpenCL-CTS"/>  
   <project name="platform/external/OpenCSD" path="external/OpenCSD"/>
   <project name="platform/external/Reactive-Extensions/RxCpp" path="external/Reactive-Extensions/RxCpp"/>
   <project name="platform/external/XNNPACK" path="external/XNNPACK"/>
